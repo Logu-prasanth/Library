@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #34db9e5f;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .ulogin
+  {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .book-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .count {
+    margin-top: 10px;
+  }
+  
+  .cart {
+    margin-top: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .cart-item img {
+    width: 50px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .cart-item-title {
+    margin-bottom: 5px;
+  }
+  
+  .cart-item-actions button {
+    margin-left: 10px;
+  }
+  
+  .loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .ulogin button
+  {
+    background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  }
+
+  .ulogin img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+  .container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+  }
+
+  
+
+    .right button
+    {
+      float:right;
+      margin: 8px 0;
+      color: white;
+  
+      cursor: pointer;
+      width: 10%;
+      background-color: blue;
+      
+      
+    }
+
+    .cart-item-actions button
+    {
+      margin: 15px 0;
+      color: white;
+      float:right;
+  
+      cursor: pointer;
+      width: 100%;
+      background-color:red;
+    }
+    .checkout button
+    {
+      
+      margin: 8px 0;
+      color: white;
+  
+      cursor: pointer;
+      width: 10%;
+      background-color:red;
+
+    }
+    .checkout{
+      background-color:#34db9e5f;
+
+    }
+    .cart
+    {
+      background-color:#34db9e5f;
+
+    }
+    .AddCart button
+    {
+      margin: 8px 0;
+      color:white;
+  
+      cursor: pointer;
+      width: 10%;
+      background-color:blue;
+
+    }
+
+    h1
+    {
+      text-align: center;
+    }
+    .cart-item-details
+    {
+      margin: 15px 0;
+      color: black;
+      float:right;
+  
+      cursor: pointer;
+      width: 100%;
+      background-color:#34db9e36;
+
+    }
+
+    .textbox input
+    {
+      background-color: whitesmoke;
+    }
+
+    select{
+      width: 100px;
+      background-color: whitesmoke;
+      height: 30px;
+    }
+
+    .detail{
+      background-color:#34db9e6d;
+
+    }
+   .temp
+   {
+    background-color:#8a34db;
+
+   }
+  
+
+  
